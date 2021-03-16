@@ -63,6 +63,17 @@ body {
 
 @media only screen and (max-width: 420px) {
     .scared {
-        background-image: url(./images/scared.jpg);
+        background-image: url(./images/momo1.jpg);
+    }
+
+    .scared img {
+        width: 30px;
+        height: 30px;
+        top: 8px;
+        right: 8px;
+    }
+
+    .menu {
+        background-image: url(https://avatars.mds.yandex.net/get-pdb/2074020/5df33438-b1e7-4221-a768-c2f790ab13ab/s1200?webp=false);
     }
 }
