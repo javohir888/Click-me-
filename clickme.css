@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.menu {
+    background-image: url(https://im0-tub-ru.yandex.net/i?id=b5686e229285369a96bbab74581174eb&ref=rim&n=33&w=421&h=248);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scared {
+    background-image: url(https://static.wallpapers-anime.com/upload/20170617/805/w/x/n/wxnGEF.jpg );
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.scared img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    right: 10px;
+    bottom: 10px;
+}
+
+.scared-2 {
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.center p {
+    margin: 5px 0;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: darkmagenta;
+}
+
+.btn {
+    width: 140px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: darkorange;
+    cursor: pointer;
+}
