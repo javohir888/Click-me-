@@ -63,7 +63,7 @@ body {
 
 @media only screen and (max-width: 420px) {
     .scared {
-        background-image: url(./images/momo1.jpg);
+        background-image: url(./images/momo2.jpg);
     }
 
     .scared img {
@@ -75,5 +75,9 @@ body {
 
     .menu {
         background-image: url(https://avatars.mds.yandex.net/get-pdb/2074020/5df33438-b1e7-4221-a768-c2f790ab13ab/s1200?webp=false);
+    }
+
+    .center p {
+        color: darkred;
     }
 }
