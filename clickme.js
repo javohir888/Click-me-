@@ -8,7 +8,7 @@ let btnTwo = document.querySelector(".btn2");
 
 btnTwo.addEventListener('click', () => {
     scared.appendChild(par);
-    par.innerHTML = "DALBAN BUNI BOSSANG O'CHMAYDI🤣🤣🤣";
+    par.innerHTML = "DALBANMISAN BUNI BOSSA O'CHMAYDIKU🤣🤣🤣";
     par.classList.add("par");
 })
 
