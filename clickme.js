@@ -3,6 +3,15 @@ let menu = document.querySelector(".menu");
 let scared = document.querySelector(".scared");
 let ctn = document.querySelector(".ctn");
 let audio = document.querySelector(".audio");
+let par = document.createElement("p");
+let btnTwo = document.querySelector(".btn2");
+
+btnTwo.addEventListener('click', () => {
+    scared.appendChild(par);
+    par.innerHTML = "DALBAN BUNI BOSSANG O'CHMAYDI🤣🤣🤣";
+    par.classList.add("par");
+})
+
 btn.addEventListener('click', () => {
     ctn.removeChild(menu);
     scared.classList.remove("scared-2");
