@@ -138,7 +138,7 @@ form input {
 
 @media only screen and (max-width: 420px) {
     .scared {
-        background-image: url(https://im0-tub-com.yandex.net/i?id=d415e7e193d0daeb5e08ceec61498a02&n=13);
+        background-image: url(./images/middle.jpg);
     }
 
     .scared img {
@@ -158,8 +158,8 @@ form input {
     }
 
     .header img {
-        width: 100px;
-        height: 30px;
+        width: 140px;
+        height: 40px;
     }
     
     .fa-list {
@@ -167,7 +167,7 @@ form input {
     }
 
     form input {
-        width: 60px;
+        width: 80px;
         height: 20px;
     }
 
