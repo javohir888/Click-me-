@@ -138,14 +138,14 @@ form input {
 
 @media only screen and (max-width: 420px) {
     .scared {
-        background-image: url(./images/middle.jpg);
+        background-image: url(./images/middle2.jpg);
     }
 
     .scared img {
-        width: 30px;
-        height: 30px;
-        top: 8px;
-        right: 8px;
+        width: 15px;
+        height: 15px;
+        top: 5px;
+        right: 5px;
     }
 
     .menu {
